@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewCalendar</string>
+    <string name="datetime_start">Дата-время старта задачи:</string>
+    <string name="datetime_end">Дата-время окончания задачи:</string>
+    <string name="date_error">Дата старта задачи должна предшествовать дате окончания задачи!</string>
+    <string name="ok">OK</string>
+</resources>
