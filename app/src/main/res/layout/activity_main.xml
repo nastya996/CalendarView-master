@@ -6,13 +6,15 @@
     android:gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
     <Button
         android:id="@+id/chooseStartDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
         android:layout_gravity="left|center_vertical"
-        android:text="@string/datetime_start"/>
+        android:layout_margin="16dp"
+        android:text="@string/datetime_start" />
+
     <Button
         android:id="@+id/chooseEndDate"
         android:layout_width="match_parent"
@@ -20,21 +22,25 @@
         android:layout_margin="16dp"
         android:layout_gravity="left|center_vertical"
         android:text="@string/datetime_end"/>
+
     <CalendarView
         android:id="@+id/startDateCalendar"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"/>
+        android:layout_margin="16dp" />
+
     <CalendarView
         android:id="@+id/endDateCalendar"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#E2E2E2"/>
+        android:layout_margin="16dp" />
+
     <Button
         android:id="@+id/btnOK"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="@string/ok"/>
+        android:text="@string/ok"
+        />
 
 </LinearLayout>
